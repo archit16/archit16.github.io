@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body{
+    background-color:black;
+    background-size: 100% 100%;
+}
+.button1{
+    background-color:black;
+    border-radius:40px;
+    border-style: solid;
+    border-width: 12px;
+    font-size:60px;
+    font-family: 'Pacifico', cursive;
+    margin-left:180px;
+    width:350px;
+    height:120px;
+    -webkit-transition: width 2s, height 2s; /* Safari */
+    transition: width 2s, height 2s;
+    margin-bottom:20px;
+}
+.button1:hover{
+    height:150px;
+    width:390px;
+}
+.button2{
+    background-color:black;
+    border-radius:40px;
+    border-style: solid;
+    border-width: 12px;
+    font-size:60px;
+    font-family: 'Pacifico', cursive;
+    margin-left:180px;
+    width:350px;
+    height:120px;
+    -webkit-transition: width 2s, height 2s; /* Safari */
+    transition: width 2s, height 2s;
+    margin-bottom:20px;
+}
+.button2:hover{
+    height:200px;
+    width:390px;
+}
+.button3{
+    background-color:black;
+    border-radius:40px;
+    border-style: solid;
+    border-width: 12px;
+    font-size:60px;
+    font-family: 'Pacifico', cursive;
+    margin-left:180px;
+    width:350px;
+    height:120px;
+    -webkit-transition: width 2s, height 2s; /* Safari */
+    transition: width 2s, height 2s;
+    margin-bottom:20px;
+}
+.button3:hover{
+    height:150px;
+    width:390px;
+    
+}
+.button4{
+    background-color:black;
+    border-radius:40px;
+    border-style: solid;
+    border-width: 12px;
+    font-size:60px;
+    font-family: 'Pacifico', cursive;
+    margin-left:180px;
+    width:350px;
+    height:120px;
+    -webkit-transition: width 2s, height 2s; /* Safari */
+    transition: width 2s, height 2s;
+    margin-bottom:20px;
+}
+.button4:hover{
+    height:150px;
+    width:390px;
+    
+}
+.animrev{
+        position: relative;
+        -webkit-animation-name: example;
+        -webkit-animation-duration: 2s;  
+        animation-name: example;
+        animation-duration: 2s;
+
+    }
+    @-webkit-keyframes example {
+        0%   {left:500px; top:0px;}
+        100% {left:0px; top:0px;}
+}
+.anim1rev{
+			position: relative;
+            -webkit-animation-name: exampl;
+            -webkit-animation-duration: 2s;  
+            animation-name: exampl;
+            animation-duration: 2s;
+
+		}
+		@-webkit-keyframes exampl {
+            0%   {right:500px; top:0px;}
+            100% {right:0px; top:0px;}
+}
+.anim2rev{
+			position: relative;
+            -webkit-animation-name: examp;
+            -webkit-animation-duration: 2s;  
+            animation-name: examp;
+            animation-duration: 2s;
+
+		}
+		@-webkit-keyframes examp {
+            0%   {right:0px; top:500px;}
+            100% {right:0px; top:0px;}
+}
+.anim3rev{
+            position: relative;
+            -webkit-animation-name: exam;
+            -webkit-animation-duration: 2s;  
+            animation-name: exam;
+            animation-duration: 2s;
+
+        }
+        @-webkit-keyframes exam {
+            0%   {top:-500px;}
+            100% {top:0px;}
+}
+.fadein{
+            position: relative;
+            -webkit-animation-name: fi;
+            -webkit-animation-duration: 5s;  
+            animation-name: fi;
+            animation-duration: 5s;
+
+    }
+    @-webkit-keyframes fi {
+            0%   {opacity:0;}
+            50%  {opacity:0;}
+            100% {opacity:1;}
+}
+.fadein2{
+            position: relative;
+            -webkit-animation-name: fi2;
+            -webkit-animation-duration: 4s;  
+            animation-name: fi2;
+            animation-duration: 4s;
+
+    }
+    @-webkit-keyframes fi2 {
+            0%   {opacity:0;}
+            50%  {opacity:0;}
+            100% {opacity:1;}
+}
