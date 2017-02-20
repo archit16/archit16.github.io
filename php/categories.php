@@ -1,5 +1,6 @@
 <html>
 <head>
+    <title>Revels '17: Categories</title>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="stylesheet" href="../css/categories.css">
