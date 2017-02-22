@@ -36,6 +36,21 @@
             50%  {opacity:0;}
             100% {opacity:1;}
 }
+.fadein2{
+            position: relative;
+            -webkit-animation-name: logo;
+            -webkit-animation-duration: 4s;  
+            animation-name: logo;
+            animation-duration: 4s;
+
+    }
+    @-webkit-keyframes logo {
+            0%   {opacity:0;}
+            50%  {opacity:0;
+            transform:translateY(-30px);}
+            100% {opacity:1; transform:translateY(0px);}
+}
+
 .ar1 {
            -webkit-animation-duration: 5s;
             animation-duration: 5s;
@@ -67,10 +82,16 @@
          }
   .ch-item {
   width: 100%;
-  height: 100%;
+  height: 160%;
   border-radius: 0%;
-  position: relative;
+  position: absolute;
+  left:0px;
+  right:0px;
   cursor: default;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin: 0px;
+  padding: 0px;
   box-shadow: inset 0 0 0 0px #994C00, 0 1px 2px rgba(0,0,0,0.1);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -128,7 +149,7 @@ background-size: 100% 100%;}
   padding: 5px 5px;
   margin-top: 0px;
   font-family: 'Questrial', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
    
   opacity: 0;
   -webkit-transition: all 1s ease-in-out 0.4s;
@@ -159,6 +180,9 @@ background-size: 100% 100%;}
 .ch-item:hover {
     box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1);
     overflow-y : hidden;
+    -webkit-transform: scale(1.3,1);
+    transform:scale(1.3,1);
+    z-index: 10000000;
 }
 
 .ch-item:hover .ch-info {
@@ -171,7 +195,7 @@ background-size: 100% 100%;}
           transform: scale(1);
 }
 
-.ch-item:hover .ch-info p { opacity: 1 }
+.ch-item:hover .ch-info p { opacity: 1;}
 
 body {
   font-family: Cambria, Georgia, serif;
@@ -285,7 +309,7 @@ a {
     height:360px;
   }
   .ch-info p{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .ch-info1 {
@@ -326,7 +350,7 @@ a {
   padding: 5px 5px;
   margin-top: 0px;
   font-family: 'Questrial', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   
   opacity: 0;
   -webkit-transition: all 1s ease-in-out 0.4s;
@@ -352,9 +376,11 @@ a {
 .ch-info1 p a:hover {
   color: #fff222;
   color: rgba(255,242,34, 0.8);
+  
 }
 
-.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1) }
+.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1);
+transform:scale(1.3, 1); }
 
 .ch-item:hover .ch-info1 {
   opacity: 1;
@@ -479,7 +505,7 @@ a {
     height:360px;
   }
   .ch-info1 p{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .ch-info2 {
@@ -520,7 +546,7 @@ a {
   padding: 5px 5px;
   margin-top: 0px;
   font-family: 'Questrial', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   
   opacity: 0;
   -webkit-transition: all 1s ease-in-out 0.4s;
@@ -548,7 +574,8 @@ a {
   color: rgba(255,242,34, 0.8);
 }
 
-.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1) }
+.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1);
+transform:scale(1.3, 1); }
 
 .ch-item:hover .ch-info2 {
   opacity: 1;
@@ -673,7 +700,7 @@ a {
     height:360px;
   }
   .ch-info2 p{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .ch-info3 {
@@ -714,7 +741,7 @@ a {
   padding: 5px 5px;
   margin-top: 0px;
   font-family: 'Questrial', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   
   opacity: 0;
   -webkit-transition: all 1s ease-in-out 0.4s;
@@ -742,7 +769,8 @@ a {
   color: rgba(255,242,34, 0.8);
 }
 
-.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1) }
+.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1);
+transform:scale(1.3, 1); }
 
 .ch-item:hover .ch-info3 {
   opacity: 1;
@@ -867,7 +895,7 @@ a {
     height:360px;
   }
   .ch-info3 p{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .ch-info4 {
@@ -908,7 +936,7 @@ a {
   padding: 5px 5px;
   margin-top: 0px;
   font-family: 'Questrial', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   
   opacity: 0;
   -webkit-transition: all 1s ease-in-out 0.4s;
@@ -936,7 +964,7 @@ a {
   color: rgba(255,242,34, 0.8);
 }
 
-.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1) }
+.ch-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1);transform:scale(1.3, 1); }
 
 .ch-item:hover .ch-info4 {
   opacity: 1;
@@ -1061,7 +1089,7 @@ a {
     height:360px;
   }
   .ch-info4 p{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -1115,4 +1143,92 @@ a {
   width:300px;
   height:55px;
   background-color:white;
+}
+div.container
+{
+    font-family: Questrial;
+  text-align: center;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Questrial sans-serif;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+  div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width:100%;
+    z-index:999999;
+    bottom:0;
+}
+
+.nav2 {
+    display: inline-block;
+    bottom:0;
+}
+
+.nav2 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 45px 27px;
+    text-decoration: none;
+}
+
+.nav2 a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #008CBA;
+}
+.fadein3{
+            position: relative;
+            -webkit-animation-name: fi3;
+            -webkit-animation-duration: 4s;  
+            animation-name: fi3;
+            animation-duration: 4s;
+
+    }
+    @-webkit-keyframes fi3 {
+            0%   {opacity:0;}
+            50%  {opacity:0;}
+            100% {opacity:1;}
 }
